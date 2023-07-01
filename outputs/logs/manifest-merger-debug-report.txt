@@ -1,0 +1,218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/edu/.gradle/caches/transforms-3/7e8938c6d51210690db04f1f23d7705c/transformed/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/edu/.gradle/caches/transforms-3/043feb76399e2d8da35db2bb4df72ee8/transformed/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/edu/.gradle/caches/transforms-3/c69280abcd25319948240cad8cde563d/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/edu/.gradle/caches/transforms-3/91cf9ccbe190784f7617a7f53954e829/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/edu/.gradle/caches/transforms-3/5953cb8ce8f98f2946fbb38484b53065/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/edu/.gradle/caches/transforms-3/2250f7b1ab9557d5657b92483f06eb00/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/edu/.gradle/caches/transforms-3/7252e0d2ef010e3195915fbd0b2d3325/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/edu/.gradle/caches/transforms-3/41f53933c19263b06a83d914e1452f4b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/0da563c53fa37b2d398b98ef6d839185/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/13850d809c5e08d556b7a81150942f11/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/edu/.gradle/caches/transforms-3/a6fa8cf0c313c5d66b52565f46bc067a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/edu/.gradle/caches/transforms-3/363724b6c7ca67ea72522e3c193eb388/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/7b7a699cbc8e6564c3301e3262160a81/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edu/.gradle/caches/transforms-3/5551cdddc6993a5d0f99e01a16f9e884/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /home/edu/.gradle/caches/transforms-3/fdda5f2218abe50c1fcb05daf85fca97/transformed/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/edu/.gradle/caches/transforms-3/bdeef8e5ebec17caf3e230641b73b7e2/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edu/.gradle/caches/transforms-3/ded01a63d532118d474e46f69e9a4ea2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edu/.gradle/caches/transforms-3/50b6db4d30973008bd1e20743ca5b270/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edu/.gradle/caches/transforms-3/842b3dfc0644dc5bfd8fa880584e0c11/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edu/.gradle/caches/transforms-3/7db2aacaf5c0e258966e35a83d9995ba/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edu/.gradle/caches/transforms-3/5ec38c558705e4d51c1cd1644e7b9481/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/edu/.gradle/caches/transforms-3/ef41ad1de6652bdfc935f1f371e39b47/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edu/.gradle/caches/transforms-3/3f222a5ca30fcd79bc56b47276bd67bf/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edu/.gradle/caches/transforms-3/bccabe4491259c7c643e6b3a4b39e533/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edu/.gradle/caches/transforms-3/f9c5c39ae18a56f1b34775b87d636e6d/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/edu/.gradle/caches/transforms-3/46b5e3a2dd654b7c84492ca3c4a8660f/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:6:5-27:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/edu/.gradle/caches/transforms-3/c69280abcd25319948240cad8cde563d/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/edu/.gradle/caches/transforms-3/c69280abcd25319948240cad8cde563d/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /home/edu/.gradle/caches/transforms-3/fdda5f2218abe50c1fcb05daf85fca97/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/edu/.gradle/caches/transforms-3/fdda5f2218abe50c1fcb05daf85fca97/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edu/.gradle/caches/transforms-3/ded01a63d532118d474e46f69e9a4ea2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edu/.gradle/caches/transforms-3/ded01a63d532118d474e46f69e9a4ea2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /home/edu/.gradle/caches/transforms-3/fdda5f2218abe50c1fcb05daf85fca97/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:13:9-59
+	android:usesCleartextTraffic
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:12:9-44
+activity#org.proxlu.appgpt.MainActivity
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:14:9-24:20
+	android:launchMode
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:17:13-44
+	android:exported
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:18:13-36
+	android:configChanges
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:16:13-98
+	android:name
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:15:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:22:27-74
+meta-data#android.webkit.WebView.MetricsOptOut
+ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:25:9-26:36
+	android:value
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:26:13-33
+	android:name
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml:25:20-71
+uses-sdk
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/edu/.gradle/caches/transforms-3/7e8938c6d51210690db04f1f23d7705c/transformed/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/edu/.gradle/caches/transforms-3/7e8938c6d51210690db04f1f23d7705c/transformed/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/edu/.gradle/caches/transforms-3/043feb76399e2d8da35db2bb4df72ee8/transformed/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/edu/.gradle/caches/transforms-3/043feb76399e2d8da35db2bb4df72ee8/transformed/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/edu/.gradle/caches/transforms-3/c69280abcd25319948240cad8cde563d/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/edu/.gradle/caches/transforms-3/c69280abcd25319948240cad8cde563d/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/edu/.gradle/caches/transforms-3/91cf9ccbe190784f7617a7f53954e829/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/edu/.gradle/caches/transforms-3/91cf9ccbe190784f7617a7f53954e829/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/edu/.gradle/caches/transforms-3/5953cb8ce8f98f2946fbb38484b53065/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/edu/.gradle/caches/transforms-3/5953cb8ce8f98f2946fbb38484b53065/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/edu/.gradle/caches/transforms-3/2250f7b1ab9557d5657b92483f06eb00/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/edu/.gradle/caches/transforms-3/2250f7b1ab9557d5657b92483f06eb00/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/edu/.gradle/caches/transforms-3/7252e0d2ef010e3195915fbd0b2d3325/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/edu/.gradle/caches/transforms-3/7252e0d2ef010e3195915fbd0b2d3325/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/edu/.gradle/caches/transforms-3/41f53933c19263b06a83d914e1452f4b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/edu/.gradle/caches/transforms-3/41f53933c19263b06a83d914e1452f4b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/0da563c53fa37b2d398b98ef6d839185/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/0da563c53fa37b2d398b98ef6d839185/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/13850d809c5e08d556b7a81150942f11/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/13850d809c5e08d556b7a81150942f11/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/edu/.gradle/caches/transforms-3/a6fa8cf0c313c5d66b52565f46bc067a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/edu/.gradle/caches/transforms-3/a6fa8cf0c313c5d66b52565f46bc067a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/edu/.gradle/caches/transforms-3/363724b6c7ca67ea72522e3c193eb388/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/edu/.gradle/caches/transforms-3/363724b6c7ca67ea72522e3c193eb388/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/7b7a699cbc8e6564c3301e3262160a81/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/edu/.gradle/caches/transforms-3/7b7a699cbc8e6564c3301e3262160a81/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edu/.gradle/caches/transforms-3/5551cdddc6993a5d0f99e01a16f9e884/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edu/.gradle/caches/transforms-3/5551cdddc6993a5d0f99e01a16f9e884/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /home/edu/.gradle/caches/transforms-3/fdda5f2218abe50c1fcb05daf85fca97/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/edu/.gradle/caches/transforms-3/fdda5f2218abe50c1fcb05daf85fca97/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/edu/.gradle/caches/transforms-3/bdeef8e5ebec17caf3e230641b73b7e2/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/edu/.gradle/caches/transforms-3/bdeef8e5ebec17caf3e230641b73b7e2/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edu/.gradle/caches/transforms-3/ded01a63d532118d474e46f69e9a4ea2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edu/.gradle/caches/transforms-3/ded01a63d532118d474e46f69e9a4ea2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edu/.gradle/caches/transforms-3/50b6db4d30973008bd1e20743ca5b270/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edu/.gradle/caches/transforms-3/50b6db4d30973008bd1e20743ca5b270/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edu/.gradle/caches/transforms-3/842b3dfc0644dc5bfd8fa880584e0c11/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edu/.gradle/caches/transforms-3/842b3dfc0644dc5bfd8fa880584e0c11/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edu/.gradle/caches/transforms-3/7db2aacaf5c0e258966e35a83d9995ba/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edu/.gradle/caches/transforms-3/7db2aacaf5c0e258966e35a83d9995ba/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edu/.gradle/caches/transforms-3/5ec38c558705e4d51c1cd1644e7b9481/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edu/.gradle/caches/transforms-3/5ec38c558705e4d51c1cd1644e7b9481/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/edu/.gradle/caches/transforms-3/ef41ad1de6652bdfc935f1f371e39b47/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/edu/.gradle/caches/transforms-3/ef41ad1de6652bdfc935f1f371e39b47/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edu/.gradle/caches/transforms-3/3f222a5ca30fcd79bc56b47276bd67bf/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edu/.gradle/caches/transforms-3/3f222a5ca30fcd79bc56b47276bd67bf/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edu/.gradle/caches/transforms-3/bccabe4491259c7c643e6b3a4b39e533/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edu/.gradle/caches/transforms-3/bccabe4491259c7c643e6b3a4b39e533/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edu/.gradle/caches/transforms-3/f9c5c39ae18a56f1b34775b87d636e6d/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edu/.gradle/caches/transforms-3/f9c5c39ae18a56f1b34775b87d636e6d/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/edu/.gradle/caches/transforms-3/46b5e3a2dd654b7c84492ca3c4a8660f/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/edu/.gradle/caches/transforms-3/46b5e3a2dd654b7c84492ca3c4a8660f/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		ADDED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edu/AppGPT/SourceCode/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/edu/.gradle/caches/transforms-3/c8564bb4649cb34ded192962597e1ade/transformed/play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/edu/.gradle/caches/transforms-3/6914fbf4ff1b384a2dd4e5de0971cace/transformed/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/edu/.gradle/caches/transforms-3/254ceec184b99aa7a7c4bd974125019f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
