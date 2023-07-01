@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 16,
       "versionName": "1.6",
-      "outputFile": "AppGPT.apk"
+      "outputFile": "app-debug.apk"
     }
   ],
   "elementType": "File"
