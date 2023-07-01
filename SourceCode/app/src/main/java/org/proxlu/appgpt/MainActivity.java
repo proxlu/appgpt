@@ -14,16 +14,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 package org.proxlu.appgpt;
 
 import android.app.Activity;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.webkit.ConsoleMessage;
 import android.webkit.CookieManager;
-import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
@@ -40,7 +41,7 @@ public class MainActivity extends Activity {
     private WebSettings chatWebSettings = null;
     private CookieManager chatCookieManager = null;
     private final Context context = this;
-    private String TAG ="AppGPT";
+    private String TAG = "AppGPT";
     private String urlToLoad = "https://talkai.info/pt/";
 
     private static final ArrayList<String> allowedDomains = new ArrayList<String>();
@@ -76,17 +77,6 @@ public class MainActivity extends Activity {
 
         //Restrict what gets loaded
         initURLs();
-
-        chatWebView.setWebChromeClient(new WebChromeClient(){
-            @Override
-            public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
-                if (consoleMessage.message().contains("NotAllowedError: Write permission denied.")) {  //this error occurs when user copies to clipboard
-                    Toast.makeText(context, R.string.error_copy,Toast.LENGTH_LONG).show();
-                    return true;
-                }
-                return false;
-            }
-        });  //needed to share link
 
         chatWebView.setWebViewClient(new WebViewClient() {
             //Keep these in sync!
@@ -141,6 +131,7 @@ public class MainActivity extends Activity {
                 }
                 return false;
             }
+
         });
 
         //Set more options
@@ -157,6 +148,23 @@ public class MainActivity extends Activity {
         chatWebSettings.setDisplayZoomControls(false);
         chatWebSettings.setSaveFormData(false);
         chatWebSettings.setGeolocationEnabled(false);
+
+        //Set copy image functionality
+        chatWebView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                WebView.HitTestResult result = chatWebView.getHitTestResult();
+                if (result.getType() == WebView.HitTestResult.IMAGE_TYPE) {
+                    String imgUrl = result.getExtra();
+                    ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+                    ClipData clip = ClipData.newPlainText("Image URL", imgUrl);
+                    clipboard.setPrimaryClip(clip);
+                    Toast.makeText(context, "Imagem copiada", Toast.LENGTH_SHORT).show();
+                    return true;
+                }
+                return false;
+            }
+        });
 
         //Load ChatGPT
         chatWebView.loadUrl(urlToLoad);
@@ -197,8 +205,6 @@ public class MainActivity extends Activity {
         CookieManager.getInstance().flush();
         WebStorage.getInstance().deleteAllData();
         chatWebView.loadUrl(urlToLoad);
-
-
     }
 
     private static void initURLs() {
@@ -207,7 +213,7 @@ public class MainActivity extends Activity {
         allowedDomains.add("openai.com");
         allowedDomains.add("talkai.info");
         allowedDomains.add("oaidalleapiprodscus.blob.core.windows.net");
-
+        allowedDomains.add("cdn-icons-png.flaticon.com");
 
     }
 }
