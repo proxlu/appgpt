@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "org.proxlu.appgpt",
-  "variantName": "debug",
+  "variantName": "AppGPT",
   "elements": [
     {
       "type": "SINGLE",
@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 16,
       "versionName": "1.6",
-      "outputFile": "app-debug.apk"
+      "outputFile": "AppGPT.apk"
     }
   ],
   "elementType": "File"
