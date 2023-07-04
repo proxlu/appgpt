@@ -4,18 +4,14 @@ import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.CookieManager;
-import android.webkit.DownloadListener;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
@@ -23,11 +19,6 @@ import android.webkit.WebStorage;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 
 public class MainActivity extends Activity {
@@ -163,7 +154,20 @@ public class MainActivity extends Activity {
 
         // Load ChatGPT
         chatWebView.loadUrl(urlToLoad);
-        if (GithubStar.shouldShowStarDialog(this)) GithubStar.starDialog(this, "https://github.com/proxlu/AppGPT");
+        if (GithubStar.shouldShowStarDialog(this))
+            GithubStar.starDialog(this, "https://github.com/proxlu/AppGPT");
+
+        // Edit the placeholder-textarea
+        chatWebView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+
+                // Inject JavaScript on page
+                String javascript = "javascript:(function() { document.querySelector('textarea[placeholder=\"Describe the image\"]').placeholder = 'Descreva a imagem'; })()";
+                chatWebView.loadUrl(javascript);
+            }
+        });
     }
 
     @Override
@@ -210,75 +214,5 @@ public class MainActivity extends Activity {
         allowedDomains.add("oaidalleapiprodscus.blob.core.windows.net");
         allowedDomains.add("cdn-icons-png.flaticon.com");
 
-    }
-
-    private void downloadAndCopyImage(String imageUrl) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    InputStream inputStream = new java.net.URL(imageUrl).openStream();
-                    Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-                    if (bitmap != null) {
-                        String fileName = "image.png";
-                        saveBitmapToStorage(bitmap, fileName);
-                        copyImageToClipboard(fileName);
-                    } else {
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                Toast.makeText(context, "Falha ao baixar a imagem", Toast.LENGTH_SHORT).show();
-                            }
-                        });
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                    runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            Toast.makeText(context, "Falha ao baixar a imagem", Toast.LENGTH_SHORT).show();
-                        }
-                    });
-                }
-            }
-        }).start();
-    }
-
-    private void saveBitmapToStorage(Bitmap bitmap, String fileName) {
-        File directory = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        if (directory != null && !directory.exists()) {
-            directory.mkdirs();
-        }
-        File file = new File(directory, fileName);
-        try {
-            FileOutputStream fos = new FileOutputStream(file);
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, fos);
-            fos.flush();
-            fos.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void copyImageToClipboard(String fileName) {
-        File directory = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        if (directory != null) {
-            File file = new File(directory, fileName);
-            if (file.exists()) {
-                ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-                ClipData clip = ClipData.newPlainText("Image", file.getAbsolutePath());
-                clipboard.setPrimaryClip(clip);
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Toast.makeText(context, "Imagem copiada", Toast.LENGTH_SHORT).show();
-                    }
-                });
-            }
-        }
-    }
-
-    private void downloadFile(String url) {
-        // Implement your file download logic here
     }
 }
