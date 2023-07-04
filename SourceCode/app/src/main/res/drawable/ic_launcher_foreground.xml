@@ -11,7 +11,7 @@
         android:pathData="M2000,4000L0,4000 0,0 4000,0 4000,4000 2000,4000Z"
         android:strokeLineJoin="round"
         android:strokeWidth="28.222"
-        android:fillColor="#ff2072"
+        android:fillColor="#08c080"
         android:strokeColor="#00000000"
         android:fillType="evenOdd"/>
     <path
